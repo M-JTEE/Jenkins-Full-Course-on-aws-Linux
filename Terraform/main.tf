@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "terraformjenkinsbucket"
+  bucket = "january282024bucket"
 
   tags = {
     Name        = "My bucket"
